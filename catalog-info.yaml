@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: service-locations
+  description: Service locations root
+spec:
+  targets:
+    - ./services/*.yaml
