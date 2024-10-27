@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: go-backend
+  description: Go Backend Service
+  tags:
+    - golang
+    - backend
+  annotations:
+    backstage.io/health-endpoint: '/api/go/health'
+spec:
+  type: service
+  lifecycle: production
+  owner: team-backend
+  system: backend-services
