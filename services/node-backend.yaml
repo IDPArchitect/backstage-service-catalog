@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: node-backend
+  description: Node.js Backend Service
+  tags:
+    - nodejs
+    - backend
+  annotations:
+    backstage.io/health-endpoint: '/api/node/health'
+spec:
+  type: service
+  lifecycle: production
+  owner: team-backend
+  system: backend-services
