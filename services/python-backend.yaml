@@ -7,7 +7,7 @@ metadata:
     - python
     - backend
   annotations:
-    backstage.io/health-endpoint: '/python/health'
+    backstage.io/health-endpoint: '/health'
 spec:
   type: service
   lifecycle: production
