@@ -7,7 +7,7 @@ metadata:
     - nodejs
     - backend
   annotations:
-    backstage.io/health-endpoint: '/api/node/health'
+    backstage.io/health-endpoint: '/health'
 spec:
   type: service
   lifecycle: production
