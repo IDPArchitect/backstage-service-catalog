@@ -2,6 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: system-pods
+  description: Kubernetes system pods
   annotations:
     'backstage.io/kubernetes-id': 'system-pods'
     'backstage.io/kubernetes-namespace': 'kube-system'
+spec:
+  type: service
+  lifecycle: production
+  owner: team-backend
+  system: kubernetes
