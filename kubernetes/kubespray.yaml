@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: system-pods
+  annotations:
+    'backstage.io/kubernetes-id': 'system-pods'
+    'backstage.io/kubernetes-namespace': 'kube-system'
