@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./services/*.yaml
+    - ./kubernetes/*.yaml
